@@ -1,0 +1,211 @@
+header, article, footer{
+	font-family: Roboto, Cambria, serif;
+}
+
+nav ul li{
+	display: inline;
+}
+
+#mainMenu{
+	background-color: #263238;
+	line-height: 30px;
+	text-align:right;
+	height: 30px;
+}
+
+ul.firstList{
+	padding-right: 120px;
+
+}
+
+h1{
+	background-image: url("images/header-background.png");
+	padding:0.2em;
+	height: 40px;
+	color: white;
+	padding-left: 120px;
+}
+
+h1 span{
+	color: #FF3D00;
+}
+
+#secondaryMenu{
+	height: 30px;
+	padding: 1px;
+	line-height: 0px;
+	background-color: #607D8B;
+}
+
+ul.secondList{
+	padding-left: 120px;
+}
+
+nav a:hover{
+	background-color: #FF3D00;
+}
+
+nav a{
+	padding: 0.25em;
+	color: #03A9F4;
+}
+
+body{
+	background-color: #ECEFF1;
+}
+
+
+#selfie{
+	border: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	padding: 5px;
+
+}
+
+
+.image{
+	text-align: center;
+	background-color: white;
+	margin:20px 120px 20px 120px;
+	padding-top: 20px;
+}
+
+#pd{
+	background-color: white;
+	border:2px solid grey;
+	margin: 0px 120px 30px 120px;
+	padding-bottom: 65px;
+}
+
+section#pd p{
+	padding-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+section#pd p em{
+	color: grey;
+}
+
+h3{
+	background-image: url("images/header-background.png");
+	color: white;
+	padding:10px;
+	margin-top: -1px;
+}
+
+#con{
+	background-color: white;
+	border:2px solid grey;
+	margin:0px 120px 30px 120px;
+	padding-bottom: 65px; 
+}
+
+section#con p{
+	padding-left: 10px;
+}
+
+section#con p em{
+	color: grey;
+}
+
+#sa{
+	background-color: white;
+	border:2px solid grey;
+	margin:0px 120px 30px 120px;
+}
+
+.actions{
+	background-color: #607D8B;
+	margin-bottom: -66px;
+}
+
+#button{
+	display: inline-block;
+	margin-left: -30px;
+}
+
+div.actions ul li{
+	display: inline;
+	background-color: #FF3D00;
+	border: 1px none;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	margin-right: 5px;
+}
+
+.actionEdit{
+	color: white;
+	text-decoration: none;
+	background-image: url("images/edit.png");
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+}
+
+
+.actionFlag{
+	color: white;
+	text-decoration: none;
+	background-image: url("images/flag.png");
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+}
+
+a[href^="tel:+14258828080"]{
+	background: url("images/call.png") no-repeat 0 3px;
+	padding-left: 15px;
+}
+
+a[href^="mailto:jacksmith@microsoft.com"]{
+	background: url("images/email.png") no-repeat 0 3px;
+	padding-left: 15px;
+}
+
+section#con p{
+	padding-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+section#con p a{
+	color: #03A9F4;
+}
+
+#chart{
+	width: 105%;	
+	margin-left:-40px;
+}
+
+
+footer{
+	background-color: #263238;
+	color: white;
+	padding-left: 120px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+footer p{
+	margin:5px;
+}
+
+a{
+	font-family: Roboto, Georgia, serif;
+}
+
+footer p a{
+	color: #03A9F4;
+}
+
+#copyright{
+	font-style: italic;
+}
