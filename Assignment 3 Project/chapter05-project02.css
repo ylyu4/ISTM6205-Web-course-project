@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: 'Merriweather', serif; 
+}
+body {
+   font-family: 'Open Sans', Arial, sans-serif;
+   font-size: 16px;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+
+
+legend {
+   background-color: #616161 ;
+   color: white;
+   font-size:22px;
+   padding: 5px;
+   padding-left: 420px;
+   padding-right: 420px;
+   text-align: center;
+}
+
+fieldset {
+   margin: 1em auto;
+   background-color: #F5F5F5;
+
+}
+
+#searchTitle{
+   width: 300px;
+}
+
+div#searchBox, div#settingsBox, div#paintingBox {
+   margin-left: 40px;
+   margin-right: 40px;
+   background-color: #E0E0E0;
+   border: 1pt solid #616161;
+
+}
+div#searchBox { 
+   margin-top: 1em;
+   padding: 15px;
+}
+
+div#settingsBox{
+   margin-top: 3px;
+   padding: 15px;
+}
+
+div#paintingBox { 
+   background-color: #EEEEEE;
+   margin-top: 20px;
+}
+
+
+caption{
+   background-color: #BDBDBD;
+   font-weight: bold;
+   margin-bottom: 0px;
+   padding: 8px;
+   width: 1080px;
+}
+
+table{
+   margin: 15px;
+   border-collapse: collapse;
+}
+
+
+table thead {
+   background-color: #E0E0E0 ;
+}
+
+table thead tr{
+   text-align: left;
+}
+
+
+thead tr{
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+.photo{
+   border: 1px solid black;
+   padding: 2px;
+}
+
+table tbody tr{
+   border-top: 1px solid #616161;
+}
+
+tbody tr td{
+   padding-top: 5px;
+   padding-bottom: 8px;
+}
+
+
+
+.action{
+   width: 180px;
+}
